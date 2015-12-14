@@ -25,3 +25,5 @@ body {
 h1 {
     text-align: center;
 }
+
+.lightbox { display:none;}
