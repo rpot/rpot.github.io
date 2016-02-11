@@ -39,10 +39,11 @@ label,a
 <textarea name="message"></textarea>
 </p>
 <input type="submit" value="Submit"><br>
-<input type="hidden" name="_next" value="//rpot.github.io/contact-form.html" />
+<input type="hidden" name="_next" value="" />
 </form>
 
 <script language="JavaScript">
+document.getElementsByName('_next').value = window.location.href;
 // Code for validating the form
 // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
 // for details
